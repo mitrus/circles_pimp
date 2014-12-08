@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3E3DF71A3596FA00CC8F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3E3DF61A3596FA00CC8F45 /* Main.storyboard */; };
+		AC3E3DFA1A35970F00CC8F45 /* PushAnimatedSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E3DF91A35970F00CC8F45 /* PushAnimatedSegue.m */; };
+		AC47F8FE1A357AD900D42670 /* NSData-AES.m in Sources */ = {isa = PBXBuildFile; fileRef = AC47F8F91A357AD900D42670 /* NSData-AES.m */; };
+		AC47F8FF1A357AD900D42670 /* NSFileManager-AES.m in Sources */ = {isa = PBXBuildFile; fileRef = AC47F8FB1A357AD900D42670 /* NSFileManager-AES.m */; };
+		AC47F9001A357AD900D42670 /* rijndael.c in Sources */ = {isa = PBXBuildFile; fileRef = AC47F8FC1A357AD900D42670 /* rijndael.c */; };
+		AC47F9071A3587EE00D42670 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC47F9061A3587EE00D42670 /* MenuViewController.m */; };
+		AC8C15F91A35959F00FAB952 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC8C15F51A35959F00FAB952 /* LaunchScreen.xib */; };
 		ACD5300F1A351B5B006A2591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD5300E1A351B5B006A2591 /* main.m */; };
 		ACD530121A351B5B006A2591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD530111A351B5B006A2591 /* AppDelegate.m */; };
-		ACD530151A351B5B006A2591 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD530141A351B5B006A2591 /* ViewController.m */; };
-		ACD530181A351B5B006A2591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD530161A351B5B006A2591 /* Main.storyboard */; };
+		ACD530151A351B5B006A2591 /* CirclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD530141A351B5B006A2591 /* CirclesViewController.m */; };
 		ACD5301A1A351B5B006A2591 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD530191A351B5B006A2591 /* Images.xcassets */; };
 		ACD5301D1A351B5B006A2591 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD5301B1A351B5B006A2591 /* LaunchScreen.xib */; };
 		ACD530291A351B5B006A2591 /* CirclesPIMPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD530281A351B5B006A2591 /* CirclesPIMPTests.m */; };
+		ACD530331A351BED006A2591 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD530321A351BED006A2591 /* QuartzCore.framework */; };
+		ACD530351A351BF2006A2591 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD530341A351BF2006A2591 /* OpenGLES.framework */; };
+		ACD530391A352DC2006A2591 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD530381A352DC2006A2591 /* Circle.m */; };
+		ACD5303E1A353EF8006A2591 /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD5303D1A353EF8006A2591 /* Geometry.m */; };
+		ACD530441A357890006A2591 /* HighScore.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD530431A357890006A2591 /* HighScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +38,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC3E3DF61A3596FA00CC8F45 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AC3E3DF81A35970F00CC8F45 /* PushAnimatedSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimatedSegue.h; sourceTree = "<group>"; };
+		AC3E3DF91A35970F00CC8F45 /* PushAnimatedSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimatedSegue.m; sourceTree = "<group>"; };
+		AC47F8F81A357AD900D42670 /* NSData-AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData-AES.h"; sourceTree = "<group>"; };
+		AC47F8F91A357AD900D42670 /* NSData-AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData-AES.m"; sourceTree = "<group>"; };
+		AC47F8FA1A357AD900D42670 /* NSFileManager-AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager-AES.h"; sourceTree = "<group>"; };
+		AC47F8FB1A357AD900D42670 /* NSFileManager-AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager-AES.m"; sourceTree = "<group>"; };
+		AC47F8FC1A357AD900D42670 /* rijndael.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rijndael.c; sourceTree = "<group>"; };
+		AC47F8FD1A357AD900D42670 /* rijndael.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rijndael.h; sourceTree = "<group>"; };
+		AC47F9051A3587EE00D42670 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		AC47F9061A3587EE00D42670 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		AC8C15F61A35959F00FAB952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		ACD530091A351B5B006A2591 /* CirclesPIMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CirclesPIMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD5300D1A351B5B006A2591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD5300E1A351B5B006A2591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACD530101A351B5B006A2591 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACD530111A351B5B006A2591 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ACD530131A351B5B006A2591 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ACD530141A351B5B006A2591 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ACD530171A351B5B006A2591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD530131A351B5B006A2591 /* CirclesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclesViewController.h; sourceTree = "<group>"; };
+		ACD530141A351B5B006A2591 /* CirclesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclesViewController.m; sourceTree = "<group>"; };
 		ACD530191A351B5B006A2591 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACD5301C1A351B5B006A2591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACD530221A351B5B006A2591 /* CirclesPIMPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirclesPIMPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD530271A351B5B006A2591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD530281A351B5B006A2591 /* CirclesPIMPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclesPIMPTests.m; sourceTree = "<group>"; };
+		ACD530321A351BED006A2591 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ACD530341A351BF2006A2591 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		ACD530371A352DC2006A2591 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		ACD530381A352DC2006A2591 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		ACD5303C1A353EF8006A2591 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		ACD5303D1A353EF8006A2591 /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		ACD530421A357890006A2591 /* HighScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScore.h; sourceTree = "<group>"; };
+		ACD530431A357890006A2591 /* HighScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD530351A351BF2006A2591 /* OpenGLES.framework in Frameworks */,
+				ACD530331A351BED006A2591 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +92,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC47F9011A357AE600D42670 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				AC47F8F81A357AD900D42670 /* NSData-AES.h */,
+				AC47F8F91A357AD900D42670 /* NSData-AES.m */,
+				AC47F8FA1A357AD900D42670 /* NSFileManager-AES.h */,
+				AC47F8FB1A357AD900D42670 /* NSFileManager-AES.m */,
+				AC47F8FC1A357AD900D42670 /* rijndael.c */,
+				AC47F8FD1A357AD900D42670 /* rijndael.h */,
+			);
+			name = Crypto;
+			sourceTree = "<group>";
+		};
+		AC8C15F41A35959F00FAB952 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				AC8C15F51A35959F00FAB952 /* LaunchScreen.xib */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		ACD530001A351B5B006A2591 = {
 			isa = PBXGroup;
 			children = (
+				ACD530341A351BF2006A2591 /* OpenGLES.framework */,
+				ACD530321A351BED006A2591 /* QuartzCore.framework */,
 				ACD5300B1A351B5B006A2591 /* CirclesPIMP */,
 				ACD530251A351B5B006A2591 /* CirclesPIMPTests */,
 				ACD5300A1A351B5B006A2591 /* Products */,
@@ -81,14 +136,24 @@
 		ACD5300B1A351B5B006A2591 /* CirclesPIMP */ = {
 			isa = PBXGroup;
 			children = (
+				AC3E3DF81A35970F00CC8F45 /* PushAnimatedSegue.h */,
+				AC3E3DF91A35970F00CC8F45 /* PushAnimatedSegue.m */,
+				AC3E3DF61A3596FA00CC8F45 /* Main.storyboard */,
+				AC47F9011A357AE600D42670 /* Crypto */,
+				ACD5303B1A353ED4006A2591 /* Geometry */,
+				ACD530361A352D8D006A2591 /* Circle */,
 				ACD530101A351B5B006A2591 /* AppDelegate.h */,
 				ACD530111A351B5B006A2591 /* AppDelegate.m */,
-				ACD530131A351B5B006A2591 /* ViewController.h */,
-				ACD530141A351B5B006A2591 /* ViewController.m */,
-				ACD530161A351B5B006A2591 /* Main.storyboard */,
+				ACD530131A351B5B006A2591 /* CirclesViewController.h */,
+				ACD530141A351B5B006A2591 /* CirclesViewController.m */,
 				ACD530191A351B5B006A2591 /* Images.xcassets */,
 				ACD5301B1A351B5B006A2591 /* LaunchScreen.xib */,
 				ACD5300C1A351B5B006A2591 /* Supporting Files */,
+				ACD530421A357890006A2591 /* HighScore.h */,
+				ACD530431A357890006A2591 /* HighScore.m */,
+				AC8C15F41A35959F00FAB952 /* Base.lproj */,
+				AC47F9051A3587EE00D42670 /* MenuViewController.h */,
+				AC47F9061A3587EE00D42670 /* MenuViewController.m */,
 			);
 			path = CirclesPIMP;
 			sourceTree = "<group>";
@@ -117,6 +182,24 @@
 				ACD530271A351B5B006A2591 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACD530361A352D8D006A2591 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				ACD530371A352DC2006A2591 /* Circle.h */,
+				ACD530381A352DC2006A2591 /* Circle.m */,
+			);
+			name = Circle;
+			sourceTree = "<group>";
+		};
+		ACD5303B1A353ED4006A2591 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				ACD5303C1A353EF8006A2591 /* Geometry.h */,
+				ACD5303D1A353EF8006A2591 /* Geometry.m */,
+			);
+			name = Geometry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD530181A351B5B006A2591 /* Main.storyboard in Resources */,
 				ACD5301D1A351B5B006A2591 /* LaunchScreen.xib in Resources */,
+				AC3E3DF71A3596FA00CC8F45 /* Main.storyboard in Resources */,
+				AC8C15F91A35959F00FAB952 /* LaunchScreen.xib in Resources */,
 				ACD5301A1A351B5B006A2591 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD530151A351B5B006A2591 /* ViewController.m in Sources */,
+				AC3E3DFA1A35970F00CC8F45 /* PushAnimatedSegue.m in Sources */,
+				AC47F8FF1A357AD900D42670 /* NSFileManager-AES.m in Sources */,
+				ACD5303E1A353EF8006A2591 /* Geometry.m in Sources */,
+				ACD530151A351B5B006A2591 /* CirclesViewController.m in Sources */,
+				AC47F8FE1A357AD900D42670 /* NSData-AES.m in Sources */,
+				AC47F9001A357AD900D42670 /* rijndael.c in Sources */,
+				ACD530441A357890006A2591 /* HighScore.m in Sources */,
+				ACD530391A352DC2006A2591 /* Circle.m in Sources */,
 				ACD530121A351B5B006A2591 /* AppDelegate.m in Sources */,
 				ACD5300F1A351B5B006A2591 /* main.m in Sources */,
+				AC47F9071A3587EE00D42670 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,12 +336,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ACD530161A351B5B006A2591 /* Main.storyboard */ = {
+		AC8C15F51A35959F00FAB952 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACD530171A351B5B006A2591 /* Base */,
+				AC8C15F61A35959F00FAB952 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 		ACD5301B1A351B5B006A2591 /* LaunchScreen.xib */ = {
@@ -412,6 +504,7 @@
 				ACD5302E1A351B5B006A2591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACD5302F1A351B5B006A2591 /* Build configuration list for PBXNativeTarget "CirclesPIMPTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +513,7 @@
 				ACD530311A351B5B006A2591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
